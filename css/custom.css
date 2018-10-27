@@ -1,0 +1,44 @@
+/*.ps-banner--home-1:before{*/
+    /*background: url("../images/background/down-01.png") repeat-x;*/
+/*}*/
+
+
+.header .ps-logo{
+    top: 22px;
+}
+
+.navigation__left{
+    padding-left: 8%;
+}
+
+.navigation__right{
+    padding-right: 10%;
+}
+
+.menu > li > a{
+    color: white;
+}
+
+.navigation{
+    background-color: rgb(251, 184, 11);
+}
+
+.menu > li.current > a{
+    color: rgb(21, 63, 94);
+    border-color: rgb(21, 63, 94);
+}
+
+.menu > li > a:hover{
+    color: rgb(21, 63, 94);
+    border-color: rgb(21, 63, 94);
+}
+
+.ps-banner .ps-banner__caption{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1199px) {
+    .header .navigation{
+        background-color: rgb(251, 184, 11);
+    }
+}
