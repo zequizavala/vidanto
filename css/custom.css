@@ -23,6 +23,15 @@
     background-color: rgb(251, 184, 11);
 }
 
+.navigation--sticky .navigation{
+    background-color: rgb(251, 184, 11);
+}
+
+.navigation--sticky .ps-logo{
+    width: 100px;
+    top: 15px
+}
+
 .menu > li.current > a{
     color: rgb(21, 63, 94);
     border-color: rgb(21, 63, 94);
@@ -46,15 +55,36 @@
     border: 0;
 }
 
+.pt-120{
+    padding-top: 120px;
+}
+
+.ps-section--map .ps-delivery{
+    background-color: rgba(251,184,11,0.9);
+}
+
+.ps-btn, button.ps-btn{
+    background-color: rgb(21, 63, 94);
+    background-image: none !important;
+}
+
+.loader:before{
+    border: 0 solid rgb(251,184,11);
+}
+
 @media (max-width: 1199px) {
     .header .navigation{
         background-color: rgb(251, 184, 11);
     }
     .header .ps-logo{
         width: 120px;
-        top: -8px;
+        top: 8px;
     }
     .menu > li > a{
         border: 0;
+    }
+
+    .pt-120{
+        padding-top: 60px;
     }
 }
