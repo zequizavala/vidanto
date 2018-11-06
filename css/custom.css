@@ -37,8 +37,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.header--sidebar{
+    background-color: rgb(251, 184, 11);
+    border: none;
+}
+
+.menu > li.current > a{
+    border: 0;
+}
+
 @media (max-width: 1199px) {
     .header .navigation{
         background-color: rgb(251, 184, 11);
+    }
+    .header .ps-logo{
+        width: 120px;
+        top: -8px;
+    }
+    .menu > li > a{
+        border: 0;
     }
 }
