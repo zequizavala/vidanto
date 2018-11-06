@@ -72,6 +72,35 @@
     border: 0 solid rgb(251,184,11);
 }
 
+.home-main-container{
+    padding: 80px;
+}
+
+.ps-new__title{
+    font-family: "Varela Round", sans-serif;
+}
+
+.ps-new__container{
+    background-color: rgba(41, 32, 60, 0.2);
+}
+
+.home-main-container p{
+    max-height: none !important;
+    font-size: 25px !important;
+}
+
+.ps-new__title{
+    color: rgb(251, 184, 11);
+}
+
+.ps-new__title:hover{
+    color: rgb(251, 184, 11);
+}
+
+.ps-new:hover .ps-new__title{
+    color: rgb(251, 184, 11);
+}
+
 @media (max-width: 1199px) {
     .header .navigation{
         background-color: rgb(251, 184, 11);
