@@ -81,16 +81,21 @@
 }
 
 .ps-new__container{
-    background-color: rgba(41, 32, 60, 0.2);
+    background-color: rgba(41, 32, 60, 0.5);
+}
+
+.ps-new__content p{
+    font-size: 18px;
 }
 
 .home-main-container p{
     max-height: none !important;
-    font-size: 25px !important;
+    font-size: 25px
 }
 
 .ps-new__title{
     color: rgb(251, 184, 11);
+    font-size: 25px;
 }
 
 .ps-new__title:hover{
@@ -101,10 +106,20 @@
     color: rgb(251, 184, 11);
 }
 
+#puntos-de-venta .ps-product--list .ps-product__thumbnail{
+    text-align: right;
+}
+
+.pdv-pin{
+    color: rgb(251, 184, 11);
+    font-size: 40px;
+}
+
 @media (max-width: 1199px) {
     .header .navigation{
         background-color: rgb(251, 184, 11);
     }
+
     .header .ps-logo{
         width: 120px;
         top: 8px;
@@ -115,5 +130,37 @@
 
     .pt-120{
         padding-top: 60px;
+    }
+    .ps-new__container{
+        position: absolute;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 666px){
+    .ps-new--large .ps-new__title{
+        font-size: 55px;
+    }
+    .home-main-container p{
+        font-size: 40px;
+    }
+    .ps-new__title{
+        font-size: 40px
+    }
+    .ps-new__content p{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 666px) {
+    .home-main-container{
+        padding: 40px;
+    }
+    .ps-new--large .ps-new__title{
+        font-size: 30px;
+    }
+    .home-main-container p{
+        font-size: 18px;
     }
 }
